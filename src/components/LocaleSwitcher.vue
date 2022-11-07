@@ -1,0 +1,32 @@
+<template>
+<ul class="social-list clearfix">
+    <li v-for="locale in locales" :key="locale" @click="switchLocale(locale)">
+        <a href="#"><i class="fa fa-behance"></i>{{locale}}</a>
+    </li>
+</ul>
+</template>
+
+<script>
+export default {
+  name: 'LocaleSwitcher',
+  methods: { // <---------------------------
+    switchLocale(locale) {
+        if (this.$i18n.locale !== locale) {
+            this.$i18n.locale = locale;
+        }
+    }
+  },
+  data() {
+    return {
+        locales: process.env.VUE_APP_I18N_SUPPORTED_LOCALE.split(',')
+    }
+  }
+}
+</script>
+<style scoped>
+li {
+    text-decoration: underline;
+    color: #459CE7;
+    cursor: pointer;
+}
+</style>

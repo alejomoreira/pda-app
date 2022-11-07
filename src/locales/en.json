@@ -1,0 +1,14 @@
+{
+    "menu": {
+        "home": "Home",
+        "restauracion": "Restoration",
+        "sobrepda": "What is the paseo de la americas?",
+        "contacto": "Contact us",
+        "esculturas": "Sculptures",
+        "mediacion": "Mediation"
+    },
+    "home": {
+      "welcome": "Hello from {company}!",
+      "new_message": "no messages | one message | {count} messages"
+    }
+}
