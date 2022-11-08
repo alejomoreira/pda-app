@@ -1,24 +1,19 @@
 $(function() {
     "use strict";
 
-    $('#menu-button, #menu-close-button').on('click touchend', function(e) {
+    $(document).on('click touchend', '#menu-button, #menu-close-button', function(e) {
         e.preventDefault();
-
-        console.log("Acá click");
-
         $('body').toggleClass('pushed-left');
         $('#menu-button').toggleClass('open');
 
     });
 
-
-    $('.panel-heading a').on('click', function() {
+    $(document).on('click', '.panel-heading a', function() {
         $('.panel-heading').removeClass('active');
         if (!$(this).closest('.panel').find('.panel-collapse').hasClass('in')) {
             $(this).parents('.panel-heading').addClass('active');
         }
     });
-
 
     $('body').not('body.touch').on('click touchend', function(e) {
         var $body = $(this);
@@ -29,16 +24,15 @@ $(function() {
         }
     });
 
-    $('#main-nav a').not('.sub-nav a').on('click', function() {
-
+    $(document).on('click', '#main-nav a:only-child' /*not('.sub-nav a')*/, function() {
         $('.sub-nav').stop().slideUp(420, function() {
             $(this).addClass('hidden');
         });
     });
 
-
-    $('.sub-nav-toggle').on('click touchend', function(e) {
+    $(document).on('click touchend','.sub-nav-toggle', function(e) {
         e.preventDefault();
+
         var $subNav = $(this).next('.sub-nav');
         if ($subNav.hasClass('hidden')) {
             $subNav.hide().removeClass('hidden').stop().slideDown(420);
@@ -66,18 +60,17 @@ $(function() {
         });
     }
 
-
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         $('body').addClass('touch');
     }
 
     // Animatedblock
-    var $animation_elements = $('.animatedblock');
-
     function check_if_in_view() {
         var window_height = $(window).height();
         var window_top_position = $(window).scrollTop();
         var window_bottom_position = (window_top_position + window_height);
+
+        var $animation_elements = $('.animatedblock');
 
         $.each($animation_elements, function() {
             var $element = $(this);
@@ -98,5 +91,9 @@ $(function() {
     $(window).on('scroll resize', check_if_in_view);
     $(window).trigger('scroll');
 
-
 });
+
+/*
+let timerId = setInterval(() => console.log($("#menu-button")), 2000);
+setTimeout(() => { clearInterval(timerId); console.log('stop'); }, 100000);
+*/

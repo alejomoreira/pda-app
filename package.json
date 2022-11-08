@@ -6,14 +6,19 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\"",
+    "deploy": "export GOOGLE_APPLICATION_CREDENTIALS=./pda-app-33f95-firebase-adminsdk-8aezd-51d0a9f6ba.json && vue-cli-service build && firebase deploy --only hosting"
   },
   "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.79",
     "core-js": "^3.8.3",
+    "firebase": "^9.13.0",
     "jquery": "^3.6.1",
     "vue": "^3.2.13",
     "vue-i18n": "^9.1.0",
-    "vue-router": "^4.0.3"
+    "vue-router": "^4.0.3",
+    "vue3-google-map": "^0.15.0",
+    "vuefire": "^2.2.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

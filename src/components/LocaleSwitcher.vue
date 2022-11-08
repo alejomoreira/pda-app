@@ -1,7 +1,7 @@
 <template>
 <ul class="social-list clearfix">
     <li v-for="locale in locales" :key="locale" @click="switchLocale(locale)">
-        <a href="#"><i class="fa fa-behance"></i>{{locale}}</a>
+        <a href="#"><i class="fa fa-language"></i>{{locale}}</a>
     </li>
 </ul>
 </template>

@@ -44,8 +44,8 @@
         }];
         var map;
         var mapOptions = {
-            center: new google.maps.LatLng(51.9599775, 6.9936886),
-            zoom: 4,
+            center: new google.maps.LatLng(-34.9572869,-54.9375891),
+            zoom: 15,
             scrollwheel: false,
             panControl: false,
             mapTypeControl: false,
@@ -61,7 +61,7 @@
             var bounds = new google.maps.LatLngBounds();
             var myIcon = new google.maps.MarkerImage("images/icons/location-pin-3.png", null, null, null, new google.maps.Size(48, 48));
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(50.9599775, 6.9936886),
+                position: new google.maps.LatLng(-34.9572869,-54.9375891),
                 map: map,
                 title: 'Safarihub',
                 icon: myIcon
