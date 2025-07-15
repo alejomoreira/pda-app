@@ -1,0 +1,116 @@
+{
+    "menu": {
+        "home": "Home",
+        "restauracion": "Restauración",
+        "sobre-pda": "¿Qué es el Paseo de las Américas?",
+        "contacto": "Contacto",
+        "esculturas": "Esculturas",
+        "juguemos": "Juguemos"
+    },
+    "home": {
+        "welcome": "Hola from {company}!",
+        "new-message": "no messages | one message | {count} messages"
+    },
+    "construccion": {
+        "mensaje": "Este página está en construcción"
+    },
+    "mantenimiento": {
+        "mensaje": "Este sitio está en mantenimiento"
+    },
+    "notfound404": {
+        "mensaje": "404 - Página no encontrada"
+    },
+    "restauracion": {
+        "titulo": "Sobre la restauración:",
+        "texto": "La intervención del PDA surge a partir del deterioro de las obras escultóricas a lo largo de casi 40 años. La comunidad de Punta del Este y por otra parte las autoridades departamentales desarrollaron diferentes iniciativas para poder recuperarlo. En 2018 se concreta un proyecto de rediseño paisajístico, restauración de obras, recuperación del patrimonio inmaterial de la memoria del lugar y de los artistas participantes del Primer Encuentro de Escultura al Aire Libre en 1982.<br><br>La intervención ha sido una ardua tarea que involucró a artistas, curadores, arquitectos, restauradores, familiares y fundaciones representantes. Se apuntó a transformar un no-lugar en un espacio actualizado con sendas peatonales, accesibilidad y señalética. En este proceso, se dieron hitos como la recuperación de esculturas que se encontraban desaparecidas, tales como 'El pájaro Caído' de Guggiari o 'Metamorfósis' de Negret. También se reubicaron obras que se habían instalado en el espacio y no pertenecían al guion original del curador Ángel Kalemberg de 1982. Waltercio Caldas inauguró su obra 'Forma Ciega' que también había sido retirada del espacio y se rescataron imágenes y narraciones de la obra del artista Nelson Ramos 'El Descubrimiento', la cual se decidió no reconstruir ya que se trataba de una obra concebida desde su condición efímera.<br><br>La IDM, el Municipio de Punta del Este y Fundación Kavlin trabajaron coordinando acciones para que este espacio se actualice en un nuevo contexto contemporáneo generando vínculos con la comunidad y creando un punto de atractivo turístico-cultural. Hoy el PDA es patrimonio de todos. La continuidad  y éxito del proyecto dependerá del mantenimiento de sus obras y del diálogo comunitario."
+    },
+    "contacto": {
+        "ubicacion-titulo": "Ubicación",
+        "ubicacion-direccion": "Rbla. General José Artigas<br />Playa Brava, Pda. 1<br />Punta del Este, Uruguay",
+        "contacto-titulo": "Contacto",
+        "contacto-descripcion": "Por más información sobre el Paseo de las Américas comuníquese al (+598) 42253866."
+    },
+    "sobre-pda": {
+        "titulo": "¿Qué es Paseo de las Américas?",
+        "texto": "El Paseo de las América es una intervención pública que nace del Primer Encuentro de Escultura Moderna al Aire Libre en 1982 curado por Ángel Kalemberg.<br>Esta convocatoria reunió nueve artistas sudamericanos del arte Abstracto, Concreto, Madí, Constructivista e Hidrocinético.<br>El PDA se encuentra dentro de un plan urbanístico de los años 80' que generó plazas públicas como el Jagüel y la Plaza del Ingenio.<br>En 2018, el PDA comienza un proceso de actualización y recuperación del diseño paisajístico, de sus obras y de su señalización.<br>El proyecto fue impulsado por la IDM con apoyo de la Fundación Kavlin, los artistas participantes, Fundaciones y familares además de diversos actores del circuito artístico y de la comunidad del Punta del Este."
+        
+    },
+    "juguemos": {
+        "tiempo": "Tiempo",
+        "turnos": "Turnos",
+        "reset": "Resetear"
+    },
+    "esculturas": {
+        "autor" : "Autor",
+        "ano" : "Año",
+        "materiales" : "Materiales",
+        "audio" : "Audio",
+        "sobre-obra" : "Sobre la obra",
+        "sobre-artista" : "Sobre el artista",
+        "proximo-artista" : "Próximo artista",
+        "website" : "Website",
+        "metamorfosis" : {
+            "sobre-obra" : "Pertenece a la serie de volúmenes nominados: “Metamorfosis”. Dotada de una estructura de planeada ingeniería, Negret  propone un movimiento plástico. Utilizando el ensamblaje en aluminio, el escultor recurre a la abstracción y a la geometría como elemento característicos a lo largo de su carrera.<br />Las obras de Negret irrumpen a través del impacto del color, desde una paleta alta monocromática que dialoga con el espacio público.<br />La innovación formal a través de los materiales caracterizó a este artista moderno.",
+            "sobre-artista" : "Escultor colombiano. Unánimemente considerado como el más destacado representante de la moderna escultura colombiana a nivel internacional.<br />Al comienzo de su carrera pasó por una etapa semifigurativa. Fue en los primeros años de la década de 1950 cuando empezó a realizar conjuntos escultóricos abstractos como su serie Aparatos mágicos construcciones realizadas con piezas metálicas ocasionalmente móviles, en las que se evocaba la moderna y compleja tecnología industrial. En sus creaciones fue adquiriendo predominio el ensamblaje de planchas y barras coloreadas y fijadas mediante tornillos y tuercas.<br />Su original estilo y técnica creativa lo configuraron como uno de los grandes escultores del siglo XX en Latinoamérica. Negret expuso sus obras en la Exposición Internacional de Pittsburgh, la XXX Bienal de Venecia de 1960 y las bienales de São Paulo de los años 1957 y 1965, entre otros certámenes. Entre sus obras cabe destacar La cabeza del poeta Valencia (1944), Templo (1970),  Negret y navegante núm. 2 (1974), Dinamismo (1974), Vigilantes (1978), Tótem (1978) y Metamorfosis (1982).<br />En su última etapa introdujo en su obra colores estridentes inspirados en motivos incaicos, como en la serie Muros del Cuzco (Casa Negret, 1990).",
+            "materiales": "Aluminio y acero inoxidable (tornillos originales en acero galvanizado)",
+            "ano": "1982 (última restauración en 2022)",
+            "audio-author": "Luis Pérez - Ex-asistente de Edgar Negret"
+        },
+        "el-pajaro-caido" : {
+            "sobre-obra" : "También conocida como “Gaviota” esta obra propone una mirada ecologista a través de la escultura. Como fiel representante del arte abstracto latinoaméricano, se propone una salida de lo figurativo pero con reminiscencias notorias en el objeto representado. Sin abandonar del todo la figuración.<br>Guggiari trabaja la forma como desgarramiento. La estructura pretende una simbiosis con el entorno local, utilizando elementos como la arena, la ondulación y el viento.<br>Con determinismo nomenclátor, El Pájaro Caído, fue tirado por una tormenta en el año 2005. La obra fue reincorporada al Paseo de las Américas en 2018.",
+            "sobre-artista" : "Nacido en Asunción, estudió en Argentina, en la Escuela Superior de Bellas Artes. Su obra ha sido merecedora de numerosos premios internacionales, tales como: la medalla de plata de la V Bienal de São Paulo, la medalla de oro de X la Bienal de São Paulo.  También representó a Paraguay en el Congreso Mundial de Esculturas en USA en 1980.<br>Además fue homenajeado por la Universidad Americana de Asunción; con una Mención de Honor del Premio Interamericano de Cultura “Gabriela Mistral” instituido por la OEA;  acreedor del Premio al Mérito Cultural 2004, por su labor en las Artes Plásticas; y es nombrado Miembro Honorario de Gente de Arte en el 2007.<br><br>Como gestor fue co-fundador del Museo de Arte Moderno de Asunción (1965), Fundador y primer Presidente del Centro de escultores del Paraguay y Fundador del Movimiento Ecológico Paraguayo (1990). Organizó y sostuvo la feria de arte El Bosque de los Artistas, realizada en diciembre de cada año, desde 1970 hasta 1995.<br><br>Sus obras integran colecciones públicas y privadas en Alemania, Argentina, Brasil, Colombia, Estados Unidos, Italia, Paraguay y Uruguay.",
+            "materiales": "Acero inoxidable (Estructura interna original de hierro reconstruida en acero inox)",
+            "ano": "1982 (última restauración en 2018)",
+            "audio-author": "Javier Guggiari"
+        },
+        "la-mano" : {
+            "sobre-obra" : "Ícono de Punta del Este, la obra forma parte de una serie de manos instaladas en diferentes partes del mundo.<br /> El autor buscó un “signo universal” en comunión con el espacio fronterizo de la playa.  Es la primer obra pública del artista. Busca erguirse como símbolo esperanzador y se abre a múltimples interpretaciones.",
+            "sobre-artista" : "Mario Irarrázabal Covarrubias es un renombrado escultor chileno conocido por su estilo expresionista figurativo. Nacido en Santiago en 1940, Irarrázabal combina su pasión artística con su interés por lo social y teológico. Después de completar estudios en filosofía y arte en Estados Unidos, y teología en Italia, regresó a Chile en 1969 para dedicarse por completo a la escultura.<br />Su obra ha dejado una marca significativa en el arte chileno y ha sido reconocida con numerosos premios, incluyendo el Premio de Honor en la Segunda Bienal Internacional de Arte de Valparaíso en 1975 y el Primer Premio de Escultura en la VIII Bienal Internacional de Arte de Valparaíso en 1987.<br />Su obra también ha sido reconocida con premios como el Premio San Francisco otorgado por la Corporación de Amigos del Patrimonio Cultural de San Francisco en Santiago en 2007.",
+            "materiales": "FerroConcreto",
+            "ano": "1982 (última restauración en 2023)",
+            "audio-author": "Mario Irrazábal"
+        },
+        "homenaje-a-punta-del-este" : {
+            "sobre-obra" : "Kosice pone en esta obra su expresión del agua, la luz y el movimiento entorno a la escultura y el espacio público. Su innovación con la escultura hidrocinética e hidrolumínica es principalmente visible a través del acrílico como un elemento constante en su obra. La obra que en algún momento fue nominada “El Beso” o “El abrazo entre la brava y la mansa” termina presentandose como un “Homenaje a Punta del Este”.",
+            "sobre-artista" : "Gyula Kosice fue un destacado artista húngaro-argentino conocido por ser uno de los precursores del arte cinético, lumínico e hidrocinético. Su trabajo se caracterizó por la intersección entre el arte, la ciencia y la tecnología. Como fundador del movimiento de arte Madí, abogó por la creación e invención total, liberando al arte de las convenciones establecidas. Además, fue pionero en el uso del gas neón en obras de arte a nivel internacional y creó la escultura hidrocinética, introduciendo el agua en movimiento como elemento esencial de sus obras.<br />A lo largo de su carrera, realizó exposiciones en diversos países y sus obras se encuentran en museos y colecciones privadas en todo el mundo. Gyula Kosice dejó un legado significativo en el arte contemporáneo, fusionando la estética y la experimentación tecnológica de manera innovadora.",
+            "materiales": "Concreto, acrílico",
+            "ano": "1982 (última restauración en 2023)",
+            "audio-author": "Adrián Barcesat colaborador de Kosice"
+        },
+        "el-descubrimiento" : {
+            "sobre-obra" : "Este proyecto se desarrolló como una anti-escultura. Poponiendo al espectador un espacio íntimo dentro del gran espació público y el tráfico. <br >Una obra enterrada que se enmarca como gesto conceptual en un marco histórico y social adverso.<br >El curador Ángel Kalemberg narra que el artista enterró la obra tiempo después de inaugurada como cierre performático  del proyecto.",
+            "sobre-artista" : "Comenzó su formación en la Escuela Nacional de Bellas Artes, donde recibió la influencia de reconocidos maestros. En 1953, fundó el grupo La Cantera, dedicado a la exploración de objetos cotidianos a través de instalaciones, y colaboró como ilustrador en diarios y publicaciones brasileñas durante su estancia en Río de Janeiro, donde se formó con Iberé Camargo y Johnny Friedlaender.<br />En la década de 1960, Ramos comenzó a experimentar con pinturas blancas cortadas por líneas, y en los años 1980, la línea se convirtió en materia, utilizando palitos, papeles y cajas para crear composiciones volumétricas. Representó a Uruguay en varias bienales internacionales, incluyendo la de San Pablo, La Habana y Venecia. En reconocimiento a su destacada trayectoria, recibió el Premio Figari del Banco Central del Uruguay en 1996 y el premio Fraternidad de la filial uruguaya de B'nai B'rith en 1995.<br />En 2016, el Museo Nacional de Artes Visuales de Montevideo realizó una exposición antológica de su obra, presentando instalaciones nunca antes mostradas en Uruguay. A lo largo de su carrera, Ramos dejó un impacto significativo en el arte visual uruguayo y formó a numerosos artistas a través del Centro de Expresión Artística (CEA), que fundó en 1971 y dirigió durante más de 30 años.",
+            "materiales": "Vidrio, madera, hierro",
+            "ano": "1982 (obra no reconstruida)",
+            "audio-author": "May Wolf"
+        },
+        "forma-ciega" : {
+            "sobre-obra" : "Para el artista, la obra apunta a “confundirse con su propia apariencia” habitando su transparencia. Busca estar en constante movimiento, aprovechando su contexto inaugural: el tránsito.<br>Esta es la primer obra del artista en el espacio público. Estuvo por algunos años desaparecida y sólo restaba de ésta un cartel que portaba pardójicamente un nombre incorrecto: “El vacío”. La obra fue reconstruida para ser reinaugurada por Caldas en 2019.",
+            "sobre-artista" : "A lo largo de su carrera, ha buscado crear obras que oscilen entre la presencia y la ausencia, explorando el espacio entre estar y no estar ahí. Su producción artística incluye dibujos, grabados y esculturas que abordan temas como la forma en el espacio, la tensión de la superficie del agua y la importancia del espacio en blanco en las obras sobre papel.<br />Caldas comenzó su formación en la Escuela de Bellas Artes y luego se sumergió en un curso más teórico y experimental en el Museo de Arte Moderno de Río de Janeiro. Desde sus inicios, se propuso crear cada pieza de arte como una creación individual, comprometiéndose constantemente con la novedad. Aunque se negó a desarrollar un tema único a lo largo de su carrera, su enfoque en la novedad ha sido una constante. Durante la época de la dictadura militar en Brasil, Caldas canalizó sus convicciones políticas a través de colaboraciones en revistas provocadoras que defendían la importancia del arte en la esfera pública, desafiando las restricciones impuestas por el régimen.<br />Caldas se ha interesado en el fenómeno del reflejo y ha incorporado espejos en sus esculturas para explorar la manipulación y la seducción de las ilusiones. <br />Para Caldas, el arte no tiene que cambiar el mundo, sino que puede modificar el lenguaje, las expectativas y las personas, lo cual ya es un logro significativo. Con una trayectoria internacional, Waltercio Caldas ha dejado una marca duradera en el arte contemporáneo.",
+            "materiales": "Acero inoxidable",
+            "ano": "1982 (restitución de la pieza en 2019)",
+            "audio-author": "Waltercio Caldas"
+        },
+        "el-signo" : {
+            "sobre-obra" : "El Signo también llamada Forma Elemental es ejemplo del carácter monumental de la obra de Matto pero también de su intención integradora de la obra con lo urbano y la naturaleza. Elementos como la cal blanca actúan como representantes de una visión que no niega el envegecimiento y el ciclo de la vida. Según sus propias palabras, utilizó este material: “porque es un elemento que da vida, no es un blanco perfecto, quiero que la obra se enriquezca con la pátina que el tiempo proporciona al blanco y que cuando sea necesario, se le dé otra mano de cal, para de esta manera iniciar otra vez el proceso”.",
+            "sobre-artista" : "Francisco Matto fue un destacado artista uruguayo, nacido en Montevideo. Inicialmente, fue autodidácta en el dibujo y la pintura con inclinaciones hacia la literatura. Se especializó en arte precolombino después de su viaje a Argentina en 1932. En 1939, ingresó al taller de Joaquín Torres García y se convirtió en miembro fundador del taller.<br>Las obras de Matto, influenciadas por el constructivismo, transmiten dinamismo al espacio y tiempo, y expresan su amor por la naturaleza a través de símbolos elementales como plantas y animales. Utilizaba materiales como la madera en su estado más crudo para aprovechar al máximo sus propiedades.<br>Uno de los aspectos más destacados de su arte era su enfoque monumental, evidenciando su interés en crear obras de arte relacionadas con la naturaleza y el espacio urbano.",
+            "materiales": "Concreto, cal",
+            "ano": "1982 (última restauración 2023)",
+            "audio-author": "Oscar Prato<br>Directivo Fundación Francisco Matto"
+        },
+        "la-lucha-entre-el-orden-y-el-caos" : {
+            "sobre-obra" : "La obra responde a la investigación de Iommi dentro del arte concreto. Busca una relación entre elementos  equilibrados con otros inéstables. El planteo de esta tensión entre materiales, posiciones y escenas irreverentes, son una constante en su trabajo. <br />La pieza de cobre no pertenece a la obra original, se ha restituido en el proceso de restauración.",
+            "sobre-artista" : "Enio Iommi fue un destacado escultor argentino vanguardista con reconocimiento internacional. Nacido en Rosario, comenzó su formación artística en el taller de su padre y luego estudió dibujo con Enrico Forni en Buenos Aires. <br />Fue uno de los miembros fundadores del grupo Arte Concreto Invención en 1946, donde trabajó con metales, acrílicos y madera. Su obra se divide en cuatro etapas distintas, abarcando desde esculturas concretas en la década de 1940 hasta propuestas espaciales más recientes.<br />Ha participado en exposiciones y bienales internacionales, incluyendo la Bienal de São Paulo y exposiciones en Londres, Zúrich y el MoMA de Nueva York. Sus esculturas se encuentran en espacios públicos y museos como el Museo Nacional de Bellas Artes de Buenos Aires y el Museo de Arte de Brasilia.<br />A lo largo de su carrera, recibió varios reconocimientos, como el Premio Konex a la escultura no figurativa y el título de Ciudadano Ilustre de la Ciudad de Buenos Aires. Enio Iommi fue elegido miembro de la Academia Nacional de Bellas Artes en 1975, aunque renunció a su puesto en 1999.",
+            "materiales": "Concreto, cobre, pintura plástica",
+            "ano": "1982 (última restauración 2023)",
+            "audio-author": "Claudia Girola"
+        },
+        "observatorio-austral" : {
+            "sobre-obra" : "Observatorio Austral es una obra particular dentro del conjunto Paseo de las Américas.<br>La obra se presenta como una instalación que invita a habitarse desde adentro. Su posición está en relación directa con el espacio y las estrellas. La obra se propone como un punto de observación.<br><br>Fue la única obra  del Paseo de las Américas que sufrió una censura parcial por parte del las autoridades militares en 1982, ya que redujeron la altura del obelisco de su proyección inicial. Por otra parte la obra, ha sido llamada ”Obelisco” y ”Espacio Arquelógico”. En el proceso de restauración de la obra, Bedel propone cambiar su nombre a ”Observatorio Austral”.",
+            "sobre-artista" : "Jacques Bedel es un escultor, pintor, diseñador y arquitecto argentino. Nacido en 1947 en Buenos Aires, se graduó en la Universidad de Buenos Aires. Ha obtenido becas en Francia y el Reino Unido, y ha participado en numerosas bienales internacionales de arte. Su trabajo se ha exhibido en más de 450 exposiciones tanto en Argentina como en el extranjero.<br />Además de su carrera artística, también ha trabajado como arquitecto, principalmente en viviendas unifamiliares y propiedades rurales. Ha recibido numerosos premios y su obra se encuentra en colecciones privadas y museos. Actualmente reside en Buenos Aires.",
+            "materiales": "Concreto",
+            "ano": "1982 (última restauración 2019)",
+            "audio-author": "Jaques Bedel"
+        }
+    }
+}

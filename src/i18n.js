@@ -1,4 +1,5 @@
 import { createI18n } from 'vue-i18n'
+import AppConfig from './app.config'
 
 /**
  * Load locale messages
@@ -8,14 +9,13 @@ import { createI18n } from 'vue-i18n'
  */
 function loadLocaleMessages() {
   const locales = require.context('./locales', true, /[A-Za-z0-9-_,\s]+\.json$/i)
-  const messages = {}
+  //console.log(locales)
+  let messages = {}
   locales.keys().forEach(key => {
     const matched = key.match(/([A-Za-z0-9-_]+)\./i)
     if (matched && matched.length > 1) {
-      const locale = matched[1]
-      //messages[locale] = locales(key).default
-      //console.log(locales(key))
-      messages[locale] = locales(key)
+        const locale = matched[1]
+        messages[locale] = locales(key).default
     }
   })
   //console.log(messages)
@@ -23,7 +23,32 @@ function loadLocaleMessages() {
 }
 
 export default createI18n({
-  locale: process.env.VUE_APP_I18N_LOCALE || 'es',
-  fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'es',
+  allowComposition: true, // you need to specify that!
+  locale: AppConfig.defaultLocale || 'es',
+  fallbackLocale: AppConfig.fallbackLocale || 'es',
   messages: loadLocaleMessages()
 })
+
+
+/*
+
+en: {
+        "home": {
+            "welcome": "Home",
+            "restauracion": "Restoration",
+            "sobre-pda": "What is the paseo de la americas?",
+            "contacto": "Contact us",
+            "esculturas": "Sculptures",
+            "mediacion": "Mediation"
+        }
+    }
+{
+    en: {
+      hello: 'hello!'
+    },
+    ja: {
+      hello: 'こんにちは！'
+    }
+  }
+*/
+

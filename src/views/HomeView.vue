@@ -2,29 +2,30 @@
 
     <div class="full-width intro">
         <div class="full-height">
-        <div class="fixed">
-            <figure class="background-image1 "></figure>
-        </div>
-        <div class="full-height-wrapper white-text">
-            <div class="custom-caption">2017, Castle Neuschwanstein</div>
-            <div class="parent">
-            <div class="bottom">
-                <div class="container">
-                    <div class="animatedblock delay2 animatedUp">
-                        <div class="col-lg-3 col-lg-offset-8 col-md-5 col-sm-offset-6 col-sm-6">
-                            <div class="banner-textblock">
-                            <h1>Photography &amp; {{ $t('home.welcome', {company : "Apple"}) }}</h1>
-                            <p class="large">A sensorial experience that embodies the Apple lifestyle and fuses together the many ways, in which the brand effortlessly fits into consumer’s lives.</p>
+            <div class="fixed">
+                <figure class="background-image1 "></figure>
+            </div>
+            <div class="full-height-wrapper white-text">
+                <div class="custom-caption"><!--2017, Castle Neuschwanstein--></div>
+                <div class="parent">
+                <div class="bottom">
+                    <div class="container">
+                        <div class="animatedblock delay2 animatedUp">
+                            <div class="col-lg-3 col-lg-offset-8 col-md-5 col-sm-offset-6 col-sm-6">
+                                <div class="banner-textblock">
+                                <h1>Paseo de las Américas<!--{{ $t('home.welcome', {company : "Apple"}) }}--></h1>
+                                <p class="large">A sensorial experience.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                </div>
+                <div class="overlay"></div>
             </div>
-            </div>
-            <div class="overlay"></div>
-        </div>
         </div>
     </div>
+    <!--
     <section class="white">
         <div class="container clearfix">
         <div class="col-md-10 col-md-offset-1">
@@ -62,6 +63,8 @@
         </div>
         </div>
     </section>
+    -->
+    <!--
     <section>
         <div class="container clearfix">
         <div class="col-md-12 white-text centered extra-padding-bottom">
@@ -141,6 +144,8 @@
         </div>
         </div>
     </section>
+    -->
+    <!--
     <section class="white">
         <div class="container clearfix">
         <div class="col-md-10 col-md-offset-1">
@@ -156,6 +161,8 @@
         </div>
         </div>
     </section>
+-->
+<!--
     <section>
         <div class="container clearfix">
         <div class="col-md-12 centered extra-padding-bottom white-text">
@@ -188,47 +195,43 @@
             </a> </div>
         </div>
     </section>
-
-</template>
-
-<!--
-<template>
-  <div class="home">
-    <img alt="Vue logo" src=".../assets/logo.png">
-    <p>{{ $t('home.welcome', {company: 'Lokalise'}) }}</p>
-    <p>Paja</p>
-    <HelloWorld msg="Heello" />
-  </div>
-
-</template>
 -->
 
+    <section class="white">
+      <div class="container clearfix no-header">
+        <div class="col-md-12 centered">
+            <ClientsFooter />
+          <div class="clear"></div>
+          <div class="borderline"></div>
+          <div class="break"></div>
+        </div>
+      </div>
+      <!--
+      <div class="container clearfix">
+        <div class="col-md-2 col-md-offset-1">
+          <h2 class="header">Clients</h2>
+        </div>
+        <div class="col-md-5">
+          <p class="large">Great things happen when building long-lasting relationships. By now, you are hopefully impressed and dying to work with us.</p>
+        </div>
+        <div class="col-md-3">
+          <p class="alignright"><a href="/contacto" title="" class="arrow">Contact Us</a></p>
+        </div>
+      </div>
+        -->
+    </section>
+
+
+</template>
+
 <script>
-// @ is an alias to /src
-//import HelloWorld from '@/components/HelloWorld.vue'
-//import HelloI18n from '@/components/HelloI18n.vue'
+import ClientsFooter from '@/components/ClientsFooter.vue';
 
-/*
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
-*/
-
-/*
-import PageHeader from '@/components/PageHeader.vue';
-import PageFooter from '@/components/PageFooter.vue';
-import MenuNav from '@/components/MenuNav.vue';
-*/
 export default {
     name: 'App',
     components: {
-        //PageHeader,
-        //PageFooter,
-        //MenuNav
-    },    
+        ClientsFooter
+    },
     mounted () {
         document.body.classList.add('amiri');
     },
@@ -238,3 +241,7 @@ export default {
 }
 
 </script>
+
+<style scoped>
+
+</style>

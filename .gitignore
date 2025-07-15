@@ -2,6 +2,8 @@
 node_modules
 /dist
 
+# firebase creds file
+pda-app-firebase-creds.json
 
 # local env files
 .env.local

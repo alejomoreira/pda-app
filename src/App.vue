@@ -5,32 +5,24 @@
 
     <!-- start wrap -->
     <div id="wrap">
-    <!-- start header -->
-    <PageHeader />
-    <!-- end header --> 
-    
-    <!-- start content -->
-    <div id="content">
-        <router-view/>
-    </div>
-    <!-- end content -->
+        <!-- start header -->
+        <PageHeader @changeLocale="changeLocale" />
+        <!-- end header --> 
+        
+        <!-- start content -->
+        <div id="content">
+            <router-view :locale="locale" class="content" />
+        </div>
+        <!-- end content -->
 
-    <!-- footer -->   
-    <PageFooter />
-    <!-- end footer -->   
+        <!-- footer -->   
+        <PageFooter />
+        <!-- end footer -->   
     </div>
 <!-- end wrap --> 
 </template>
 
 <script>
-/*
-export default {
-    name: "App",
-    mounted() {
-     console.log("Mounted")   
-    }
-}
-*/
 
 import PageHeader from '@/components/PageHeader.vue';
 import PageFooter from '@/components/PageFooter.vue';
@@ -42,14 +34,22 @@ export default {
         PageHeader,
         PageFooter,
         MenuNav
-    },   
+    },
+    data() {
+        return {
+            locale: 'es'
+        }
+    },
     mounted () {
-        //document.body.classList.add('contact-page', 'lato');
-        //console.log("Mounted Contact");
-        //$(document).trigger('vue-loaded');
     },
     unmounted() {
-        //document.body.classList.remove('contact-page', 'lato');
+    },
+    methods: {
+        changeLocale(lang) {
+            this.locale = lang;
+           console.log("Changed Location 2" + lang)
+        },
+  
     }
 }
 </script>
