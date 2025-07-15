@@ -13,7 +13,7 @@
 	padding: 70px 75px;
 	overflow-y: scroll;
 }
-nav .social-list {
+nav .lang-list {
 	padding-bottom: 0;
 }
 #map {
@@ -45,13 +45,13 @@ footer p {
 #menu-button {
 	left: 13px;
 }
-header .social-list {
+header .lang-list {
 	right: 19px;
 }
 header .phone-number {
 	display: none;
 }
-header .social-list li {
+header .lang-list li {
 	padding: 0 4px;
 }
 h1 {

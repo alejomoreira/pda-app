@@ -9,16 +9,9 @@
     </div>
     <!-- start header -->
     <header id="header" class="clearfix">
-        <h1 id="logo"><a href="/">{{ $t('home.welcome', {company : "Apple"}) }}</a></h1>
+        <h1 id="logo"><a href="/"></a></h1>
     
-    <!-- <ul class="social-list clearfix">
-        <li> <a href="#"><i class="fa fa-behance"></i></a> </li>
-        <li> <a href="#"><i class="fa fa-dribbble"></i></a> </li>
-        <li> <a href="#"><i class="fa fa-xing"></i></a> </li>
-        <LocaleSwitcher />
-
-    </ul>-->
-    <LocaleSwitcher />
+    <LocaleSwitcher @changeLocale="changeLocale" />
     </header>
     <!-- end header --> 
 
@@ -35,6 +28,12 @@ export default {
     }, 
     components: {
         LocaleSwitcher
+    },
+    methods: {
+        changeLocale(lang) {
+            this.$emit("changeLocale", lang)
+            console.log("Changed Location 1")
+        }
     }
 }
 </script>

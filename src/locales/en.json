@@ -1,14 +1,115 @@
-{
+{ 
     "menu": {
         "home": "Home",
         "restauracion": "Restoration",
-        "sobrepda": "What is the paseo de la americas?",
+        "sobre-pda": "What is the paseo de la americas?",
         "contacto": "Contact us",
         "esculturas": "Sculptures",
-        "mediacion": "Mediation"
+        "juguemos": "Play with us"
     },
     "home": {
-      "welcome": "Hello from {company}!",
-      "new_message": "no messages | one message | {count} messages"
+        "welcome": "Hello from {company}!",
+        "new-message": "no messages | one message | {count} messages"
+    },
+    "construccion": {
+        "mensaje": "This page is under construction"
+    },
+    "mantenimiento": {
+        "mensaje": "This site is under maintenance"
+    },
+    "notfound404": {
+        "mensaje": "404 - Page not found."
+    },
+    "restauracion": {
+        "titulo": "About the restoration:",
+        "texto": "The intervention of the PDA arose from the deterioration of the sculptural works over almost 40 years. The community of Punta del Este and on the other hand the departmental authorities developed different initiatives to recover it. In 2018, a project of landscape redesign, restoration of works, recovery of the intangible heritage of the memory of the place and of the artists participating in the First Outdoor Sculpture Encounter in 1982 took shape.<br><br>The intervention has been an arduous task that involved artists, curators, architects, restorers, family members and representative foundations. The aim was to transform a non-place into an updated space with pedestrian paths, accessibility and signage. In this process, there were milestones such as the recovery of sculptures that had disappeared, such as 'The Fallen Bird' by Guggiari or 'Metamorphosis' by Negret. Also relocated were works that had been installed in the space and did not belong to the original 1982 script by curator Ángel Kalemberg. Waltercio Caldas inaugurated his work 'Forma Ciega', which had also been removed from the space, and images and narrations of Nelson Ramos's work 'El Descubrimiento' were rescued, which it was decided not to reconstruct since it was a work conceived from its ephemeral condition.<br><br>The IDM, the Municipality of Punta del Este and the Kavlin Foundation worked coordinating actions so that this space could be updated in a new contemporary context, generating links with the community and creating a tourist-cultural attraction. Today the PDA belongs to all of us. The continuity and success of the project will depend on the maintenance of its works and community dialogue."
+    },
+    "contacto": {
+        "ubicacion-titulo": "Location",
+        "ubicacion-direccion": "Rambla General José Artigas, Brava Beach Stop 1<br />Punta del Este, Uruguay",
+        "contacto-titulo": "Contact",
+        "contacto-descripcion": "For more information about Paseo de las Americas, please call (+598) 42253866."
+    },
+    "sobre-pda": {
+        "titulo": "What is Paseo de las Américas?",
+        "texto": "The Paseo de las Americas is a public intervention born from the First Meeting of Modern Outdoor Sculpture in 1982, curated by Angel Kalemberg.<br>This call brought together nine South American artists of Abstract, Concrete, Madí, Constructivist and Hydrokinetic art.<br>The PDA is located within an urban plan of the 1980s that generated public squares such as the Jagüel and the Plaza del Ingenio.<br>In 2018, the PDA begins a process of updating and recovering the landscape design, its works and signage.<br>The project was promoted by the IDM with the support of the Kavlin Foundation, the participating artists, foundations and families, as well as various actors of the artistic circuit and the community of Punta del Este."
+    },
+    "juguemos": {
+        "tiempo": "Time",
+        "turnos": "Shifts",
+        "reset": "Reset"
+    },
+    "esculturas": {
+        "autor" : "Author",
+        "ano" : "Year",
+        "materiales" : "Materials",
+        "audio" : "Audio",
+        "sobre-obra" : "About the work",
+        "sobre-artista" : "About the artist",
+        "proximo-artista" : "Next artist",
+        "website" : "Website",
+        "metamorfosis" : {
+            "sobre-obra" : "It belongs to the series of volumes titled: “Metamorfosis”. Endowed with a planned engineering structure, Negret proposes a plastic movement. Using aluminum assemblage, the sculptor resorts to abstraction and geometry as characteristic elements throughout his career.<br />Negret's works burst through the impact of color, from a high monochromatic palette that dialogues with the public space.<br />Formal innovation through materials characterized this modern artist.",
+            "sobre-artista" : "Colombian sculptor. Unanimously considered as the most outstanding representative of modern Colombian sculpture internationally.<br />At the beginning of his career he went through a semi-figurative stage. It was in the early 1950s when he began to create abstract sculptural sets such as his series Aparatos Magicos (Magic Apparatuses), constructions made with occasionally moving metal pieces, which evoked modern and complex industrial technology. In his creations, the assembly of colored plates and bars fixed with screws and nuts became predominant, and his original style and creative technique made him one of the great sculptors of the 20th century in Latin America.<br />Negret exhibited his works at the Pittsburgh International Exposition, the XXX Venice Biennial in 1960 and the São Paulo Biennials in 1957 and 1965, among other events. His works include La cabeza del poeta Valencia (1944), Templo (1970), Negret y Navegante núm. 2 (1974), Dinamismo (1974), Vigilantes (1978), Tótem (1978) and Metamorfosis (1982).<br />In his last stage he introduced strident colors inspired by Inca motifs, as in the series Muros del Cuzco (Casa Negret, 1990).",
+            "materiales": "Aluminum and stainless steel (original screws in galvanized steel)",
+            "ano": "1982 (last restoration in 2022)",
+            "audio-author": "Luis Pérez - Former assistant to Edgar Negret"
+        },
+        "el-pajaro-caido" : {
+            "sobre-obra" : "Also known as “Gaviota“ this work proposes an environmentalist look through sculpture. As a faithful representative of Latin American abstract art, it proposes a departure from the figurative but with notorious reminiscences in the object represented. Without completely abandoning figuration.<br>Guggiari works the form as tearing. The structure seeks a symbiosis with the local environment, using elements such as sand, undulation and wind.<br><br>With nomenclatural determinism, El Pájaro Caído (The Fallen Bird) was knocked down by a storm in 2005. The work was reincorporated into the Walk of the Americas in 2018.",
+            "sobre-artista" : "Born in Asunción, he studied in Argentina at the Escuela Superior de Bellas Artes. His work has won numerous international awards, such as: the silver medal of the V Biennial of São Paulo, the gold medal of the X Biennial of São Paulo. He also represented Paraguay at the World Sculpture Congress held in the USA in 1980.<br>He was also honored by the American University of Asuncion; with an Honorable Mention of the Inter-American Prize of Culture “Gabriela Mistral“ instituted by the OAS; he received the Cultural Merit Award 2004, for his work in the Plastic Arts; and he was named Honorary Member of Gente de Arte in 2007.<br><br>As a manager he was co-founder of the Museum of Modern Art of Asuncion (1965), Founder and first President of the Center of Sculptors of Paraguay and Founder of the Paraguayan Ecological Movement (1990). He organized and supported the art fair El Bosque de los Artistas, held in December of each year, from 1970 to 1995.<br><br>His works are part of public and private collections in Germany, Argentina, Brazil, Colombia, United States, Italy, Paraguay and Uruguay.",
+            "materiales": "Stainless steel (original internal iron structure rebuilt in stainless steel)",
+            "ano": "1982 (last restoration in 2018)",
+            "audio-author": "Hermann Guggiari"
+        },
+        "la-mano" : {
+            "sobre-obra" : "An icon of Punta del Este, the work is part of a series of hands installed in different parts of the world.<br />The author sought a “universal sign“ in communion with the border space of the beach.  It is the artist's first public work. It seeks to stand as a symbol of hope and is open to multiple interpretations.",
+            "sobre-artista" : "Mario Irarrázabal Covarrubias is a renowned Chilean sculptor known for his figurative expressionist style. Born in Santiago in 1940, Irarrázabal combines his artistic passion with his interest in social and theological issues. After completing studies in philosophy and art in the United States and theology in Italy, he returned to Chile in 1969 to devote himself entirely to sculpture.<br />His work has left a significant mark on Chilean art and has been recognized with numerous awards, including the Honorary Prize at the Second International Art Biennial of Valparaiso in 1975 and the First Prize for Sculpture at the VIII International Art Biennial of Valparaiso in 1987.<br />His work has also been recognized with awards such as the San Francisco Prize awarded by the Corporation of Friends of the Cultural Heritage of San Francisco in Santiago in 2007.",
+            "materiales": "Ferrocement",
+            "ano": "1982 (last restoration in 2023)",
+            "audio-author": "Mario Irrazábal"
+        },
+        "homenaje-a-punta-del-este" : {
+            "sobre-obra" : "Kosice brings his expression of water, light and movement to sculpture and public space in this work. His innovation with the hydrokinetic and hydroluminescent sculpture is mainly his innovation with hydro-luminescent and hydrokinetic sculpture is mainly visible through acrylic as a constant element in his work.<br />The work that at some point was called “El Beso“ or “El abrazo entre la brava y la mansa“ ends up being presented as a “Homenaje a Punta del Este“ (Homage to Punta del Este).",
+            "sobre-artista" : "Gyula Kosice was a prominent Hungarian-Argentine artist known for being one of the forerunners of kinetic, light and hydrokinetic art. His work was characterized by the intersection of art, science and technology. As the founder of the Madí art movement, he advocated total creation and invention, freeing art from established conventions. In addition, he pioneered the use of neon gas in works of art internationally and created hydrokinetic sculpture, introducing moving water as an essential element of his works.<br />Throughout his career, he held exhibitions in several countries and his works can be found in museums and private collections around the world. Gyula Kosice left a significant legacy in contemporary art, fusing aesthetics and technological experimentation in an innovative way.",
+            "materiales": "Concrete, acrylic",
+            "ano": "1982 (last restoration in 2023)",
+            "audio-author": "Adrián Barcesat Kosice collaborator"
+        },
+        "el-descubrimiento" : {
+            "sobre-obra" : "This project was developed as an anti-sculpture. Poponiendo the viewer an intimate space within the great public space and traffic. <br />A buried work that is framed as a conceptual gesture in an adverse historical and social framework.<br />The curator Ángel Kalemberg narrates that the artist buried the work some time after its inauguration as a performative closure of the project.",
+            "sobre-artista" : "He began his training at the Escuela Nacional de Bellas Artes, where he was influenced by renowned masters. In 1953, he founded the group La Cantera, dedicated to the exploration of everyday objects through installations, and collaborated as an illustrator in Brazilian newspapers and publications during his stay in Rio de Janeiro, where he trained with Iberé Camargo and Johnny Friedlaender.<br />In the 1960s, Ramos began experimenting with white paintings cut by lines, and in the 1980s, line became matter, using sticks, papers and boxes to create volumetric compositions. He represented Uruguay in several international biennials, including São Paulo, Havana and Venice. In recognition of his outstanding career, he received the Figari Award from the Central Bank of Uruguay in 1996 and the Fraternity Award from the Uruguayan branch of B'nai B'rith in 1995.<br /> In 2016, the National Museum of Visual Arts in Montevideo held an anthological exhibition of his work, featuring installations never before shown in Uruguay. Throughout his career, Ramos left a significant impact on Uruguayan visual art and trained numerous artists through the Centro de Expresión Artística (CEA), which he founded in 1971 and directed for more than 30 years.",
+            "materiales": "Glass, wood, iron",
+            "ano": "1982 (work not rebuilt)",
+            "audio-author": "May Wolf"
+        },
+        "forma-ciega" : {
+            "sobre-obra" : "Para el artista, la obra apunta a “confundirse con su propia apariencia” habitando su transparencia. Busca estar en constante movimiento, aprovechando su contexto inaugural: el tránsito.<br>Esta es la primer obra del artista en el espacio público. Estuvo por algunos años desaparecida y sólo restaba de ésta un cartel que portaba pardójicamente un nombre incorrecto: “El vacío”. La obra fue reconstruida para ser reinaugurada por Caldas en 2019.",
+            "sobre-artista" : "Throughout his career, he has sought to create works that oscillate between presence and absence, exploring the space between being and not being there. His artistic production includes drawings, prints and sculptures that address themes such as form in space, the tension of the surface of water and the importance of white space in works on paper.<br /> Caldas comenzó su formación en la Escuela de Bellas Artes y luego se sumergió en un curso más teórico y experimental en el Museo de Arte Moderno de Río de Janeiro. Desde sus inicios, se propuso crear cada pieza de arte como una creación individual, comprometiéndose constantemente con la novedad. Aunque se negó a desarrollar un tema único a lo largo de su carrera, su enfoque en la novedad ha sido una constante. Durante la época de la dictadura militar en Brasil, Caldas canalizó sus convicciones políticas a través de colaboraciones en revistas provocadoras que defendían la importancia del arte en la esfera pública, desafiando las restricciones impuestas por el régimen.<br />Caldas se ha interesado en el fenómeno del reflejo y ha incorporado espejos en sus esculturas para explorar la manipulación y la seducción de las ilusiones. <br />Para Caldas, el arte no tiene que cambiar el mundo, sino que puede modificar el lenguaje, las expectativas y las personas, lo cual ya es un logro significativo. With an international trajectory, Waltercio Caldas has left a lasting mark on contemporary art.",
+            "materiales": "Stainless steel",
+            "ano": "1982 (restitution of the work in 2019)",
+            "audio-author": "Waltercio Caldas"
+        },
+        "el-signo" : {
+            "sobre-obra" : "The Sign, also called Elemental Form, is an example of the monumental character of Matto's work, but also of his intention to integrate the work with the urban and nature. Elements such as white lime act as representatives of a vision that does not deny aging and the cycle of life. According to his own words, he used this material: ”because it is an element that gives life, it is not a perfect white, I want the work to be enriched with the patina that time gives to the white and when necessary, another coat of lime is given, so as to start the process again”.",
+            "sobre-artista" : "Francisco Matto fue un outstanding Uruguayan artist, born in Montevideo. Initially, he was self-taught in drawing and painting with inclinations towards literature. He specialized in pre-Columbian art after his trip to Argentina in 1932. In 1939, she joined Joaquín Torres García's workshop and became a founding member of the workshop.<br><br>Matto's works, influenced by constructivism, convey dynamism to space and time, and express his love of nature through elemental symbols such as plants and animals. He used materials such as wood in its raw state to make the most of its properties.<br><br>One of the most outstanding aspects of his art was his monumental approach, evidencing his interest in creating works of art related to nature and urban space.",
+            "materiales": "Concrete, lime",
+            "ano": "1982 (last restoration in 2023)",
+            "audio-author": "Oscar Prato<br>Executive Francisco Matto Foundation"
+        },
+        "la-lucha-entre-el-orden-y-el-caos" : {
+            "sobre-obra" : "The work responds to Iommi's research into concrete art. He seeks a relationship between balanced elements and unstable ones. The approach of this tension between materials, positions and irreverent scenes, are a constant in his work. <br />The copper piece does not belong to the original work, it has been restored in the restoration process.",
+            "sobre-artista" : "Francisco Matto was an outstanding Uruguayan artist, born in Montevideo. Initially, he was self-taught in drawing and painting with inclinations towards literature. He specialized in pre-Columbian art after his trip to Argentina in 1932. In 1939, she joined Joaquín Torres García's studio and became a founding member of the workshop.<br>Matto's works, influenced by constructivism, convey dynamism to space and time, and express his love of nature through elemental symbols such as plants and animals. He used materials such as wood in its raw state to make the most of its properties.<br>One of the most outstanding aspects of his art was his monumental approach, evidencing his interest in creating works of art related to nature and urban space.",
+            "materiales": "Concrete, copper, plastic paint",
+            "ano": "1982",
+            "audio-author": "Claudia Girola"
+        },
+        "observatorio-austral" : {
+            "sobre-obra" : "Observatorio Austral is a particular work within the Paseo de las Américas complex.<br>The work is presented as an installation that invites you to inhabit it from the inside. Its position is directly related to space and the stars. The work is proposed as an observation point.<br><br>It was the only work of the Paseo de las Americas that suffered partial censorship by the military authorities in 1982, since they reduced the height of the obelisk from its initial projection. On the other hand, the work has been called ”Obelisk” and ”Archeological Space”. In the process of restoring the work, Bedel proposes to change its name to ”Southern Observatory”.",
+            "sobre-artista" : "Jacques Bedel is an Argentine sculptor, painter, designer and architect. Born in 1947 in Buenos Aires, he graduated from the University of Buenos Aires. He has won scholarships in France and the United Kingdom, and has participated in numerous international art biennials. His work has been exhibited in more than 450 exhibitions both in Argentina and abroad. <br />In addition to his artistic career, he has also worked as an architect, mainly on single-family homes and rural properties. He has received numerous awards and his work is in private collections and museums. He currently resides in Buenos Aires.",
+            "materiales": "Concrete",
+            "ano": "1982 (last restoration in 2019)",
+            "audio-author": "Jaques Bedel"
+        }
     }
 }

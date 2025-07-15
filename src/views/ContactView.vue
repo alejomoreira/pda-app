@@ -3,32 +3,12 @@
     <div class="full-width intro">
       <div class="full-height not-completely-full">
         <div class="fixed">
-            <div id="map" class="parallax parallax-banner">
-
-
-                <!--
-                <GoogleMap
-                api-key="AIzaSyCI9Xh0ihB2u4E0-vnpXgtyjaDCHxrfgik"
-                style="width: 100%; height: 500px"
-                :center="center"
-                :scrollwheel="false"
-                :panControl="false"
-                :mapTypeControl="false"
-                :streetViewControl="false"
-                :disableDefaultUI="false"
-                :zoomControl="false"
-                :zoom="15"
-                :styles="styles"
-                >
-                    <CustomMarker :options="{ position: center, anchorPoint: 'BOTTOM_CENTER' }">
-                        <img src="@/assets/images/icons/location-pin-3.png" width="48" height="48" style="margin-top: 8px" />
-                    </CustomMarker>
-                </GoogleMap>
-                -->
-
-
-            </div>
-            <GMapMap 
+            <div id="map" class="parallax parallax-banner"></div>
+            <div class="fondo igual-relacion"></div>
+            <div class="fixed"><figure class="background-image-map"></figure></div>
+            
+            <!--<GMapMap 
+                <img  class="img-fluid" src="@/assets/images/mapa.png" />
                 ref="myMarker"
                 :center="{lat: -34.9572869, lng: -54.937589}"
                 :options="options"
@@ -45,7 +25,7 @@
                 :draggable="false"
                 style="width:48px; height:48px"
                 />
-            </GMapMap>
+            </GMapMap>-->
             
         </div>
         
@@ -56,21 +36,20 @@
                 <div class="animatedblock delay2 animatedUp">
                   <div class="col-md-7 col-md-offset-1">
                     <div class="banner-textblock">
-                      <p class="large">Contact</p>
-                      <h1 class="header">Belton Creative Group<br />
-                        Neusser Str. 255<br />
-                        Köln</h1>
+                      <p class="large">{{ $t('contacto.ubicacion-titulo') }}</p>
+                      <h1 class="header" v-html="$t('contacto.ubicacion-direccion')" style="font-size: 38px;"></h1>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="overlay contact-map-overlay"></div>
+          <!--<div class="overlay contact-map-overlay"></div>-->
         </div>
+
       </div>
     </div>
-    <section class="white">
+    <section class="white contact-padding-top">
       <div class="container clearfix">
         <!--
         <div class="col-md-7 col-md-offset-1 col-sm-6 extra-padding-right">
@@ -84,7 +63,20 @@
             </div>
           </form>
         </div>-->
-        <div class="col-md-3 col-sm-6">
+        <div class="row">
+            <div class="col-sm-6 extra-padding-right">
+                <h2 class="header">{{ $t('contacto.contacto-titulo') }}</h2>
+                <p v-html="$t('contacto.contacto-descripcion')"></p>
+                <div class="break"></div>
+            </div>
+            <div class="col-sm-6">
+                <p class="large">info@maldonado.gub.uy<br>contacto@centroculturalkavlin.org</p>
+                <p class="small below-text">Email</p>
+                <p class="large"><a href="https://www.instagram.com/paseodelasamericas_/" target="__blank"><i style="font-size:150%;vertical-align:bottom;" class="fa fa-instagram"></i>paseodelasamericas_</a></p>
+                <p class="small below-text">Instagram</p>
+            </div>
+        </div>
+        <!--<div class="col-md-3 col-sm-6">
           <h2 class="header">Enquiries</h2>
           <p>Visit us in Cologne or drop us a message. We'll get back to you as soon as possible. </p>
           <div class="break"></div>
@@ -92,6 +84,16 @@
           <p class="small below-text">New Business</p>
           <p class="large">+49 (0)221 3644 800</p>
           <p class="small below-text">phone</p>
+        </div>-->
+      </div>
+    </section>
+    <section class="white" style="padding-top:0px">
+      <div class="container clearfix no-header">
+        <div class="col-md-12 centered">
+            <ClientsFooter />
+          <div class="clear"></div>
+          <div class="borderline"></div>
+          <div class="break"></div>
         </div>
       </div>
     </section>
@@ -99,11 +101,7 @@
 </template>
 
 <script>
-//import { GoogleMap, CustomMarker } from 'vue3-google-map'
-//import {toRaw} from 'vue';
-//this.markers.map((marker) => toRaw(marker).setMap(null))
-//key: "AIzaSyCI9Xh0ihB2u4E0-vnpXgtyjaDCHxrfgik",
-
+/*
 let gMapStyles = [{
     featureType: "administrative",
     elementType: "all",
@@ -145,57 +143,49 @@ let gMapStyles = [{
         color: '#cccccc'
     }]
 }];
+*/
+import ClientsFooter from '@/components/ClientsFooter.vue';
 
-export default {
-  name: 'ContactView',
-  components: {
-  },
-  data() {
-    return {
-      center: {lat: -34.9572869, lng: -54.9375891},
-      options: {
-        styles: gMapStyles,
-        zoomControl: false,
-        mapTypeControl: false,
-        scaleControl: false,
-        streetViewControl: false,
-        rotateControl: false,
-        fullscreenControl: false
-      },
-      markers: [
-        {
-          position: {
-            lat: -34.9572869, lng: -54.9375891
-          },
-        }
-      ]
-    }
-  },
-  mounted () {
-        document.body.classList.add('contact-page', 'lato');
-        console.log("Mounted Contact");
-        //$(document).trigger('vue-loaded');
-    },
-    unmounted() {
-        document.body.classList.remove('contact-page', 'lato');
-    }
-}
-
-/*
 export default {
     name: 'ContactView',
     components: {
-    },   
+        ClientsFooter
+    },
+    data() {
+       /* return {
+            center: {lat: -34.9572869, lng: -54.9375891},
+            options: {
+                styles: gMapStyles,
+                zoomControl: false,
+                mapTypeControl: false,
+                scaleControl: false,
+                streetViewControl: false,
+                rotateControl: false,
+                fullscreenControl: false
+            },
+            markers: [
+                {
+                    position: {
+                        lat: -34.9572869, lng: -54.9375891
+                    }
+                }
+            ]
+        }*/
+    },
     mounted () {
+        document.body.classList.add('no-intro', 'white-header', 'lato');
+    },
+    unmounted() {
+        document.body.classList.remove('no-intro', 'white-header', 'lato');
+    }
+    /*mounted () {
         document.body.classList.add('contact-page', 'lato');
-        console.log("Mounted Contact");
-        //$(document).trigger('vue-loaded');
     },
     unmounted() {
         document.body.classList.remove('contact-page', 'lato');
-    }
+    }*/
 }
-*/
+
 </script>
 
 <style scoped>
@@ -207,4 +197,19 @@ export default {
     height: 100%;
 }
 
+.background-image-map {
+    background: url('@/assets/images/mapa.png') no-repeat center;
+    height: 100%;
+    display: block;
+    width: 100%;
+    background-size: 100% auto;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.contact-padding-top {
+    padding-top: 80px;
+}
 </style>

@@ -4,7 +4,7 @@ $(function() {
     $('#menu-button, #menu-close-button').on('click touchend', function(e) {
         e.preventDefault();
 
-        console.log("Acá click");
+       // console.log("Acá click");
 
         $('body').toggleClass('pushed-left');
         $('#menu-button').toggleClass('open');
