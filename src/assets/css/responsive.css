@@ -6,111 +6,171 @@
 
 /*Medium devices (desktops, 992px and up):*/
 @media only screen and (max-width: 992px) {
-.client {
-	width: 33.3333333%;
+    .client {
+        width: 33.3333333%;
+    }
+    #nav-wrapper {
+        padding: 70px 75px;
+        overflow-y: scroll;
+    }
+    nav .lang-list {
+        padding-bottom: 0;
+    }
+    #map {
+        height: 100%;
+        margin-top: 0%;
+    }
+    .hide-on-sm {
+        display: none;
+    }
+
+    .home-video-container {
+        width: 95%;
+    }
+
+    div.full-height {
+        height: 98vh!important
+    }
+
+    .restoration-container {
+        width: 100% !important;
+        margin: 0 auto;
+    }
 }
-#nav-wrapper {
-	padding: 70px 75px;
-	overflow-y: scroll;
+
+@media screen and (max-width: 900px) {
+    .restoration-container {
+        width: 96% !important;
+        margin: 0 auto;
+    }
 }
-nav .lang-list {
-	padding-bottom: 0;
+
+/* Between medium (992px) and small (768px) devices */
+@media only screen and (max-width: 900px) and (min-width: 850px) {
+    .client {
+        width: 40%;
+    }
+    #nav-wrapper {
+        padding: 50px 40px;
+    }
+    .home-video-container {
+        width: 98%;
+    }
+    div.full-height {
+        height: 94vh !important;
+    }
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
-#map {
-	height: 100%;
-	margin-top: 0%;
-}
-.hide-on-sm {
-	display: none;
-}
+
+@media only screen and (max-width: 849px) and (min-width: 769px) {
+    div.full-height {
+        height: 87vh !important;
+    }
 }
 
 /*Small devices (tablets, 768px and up):*/
-@media only screen and (max-width: 768px) {
-.container {
-	padding-right: 15px;
-	padding-left: 15px;
+@media only screen and (max-width: 768px) and (min-width: 658px) {
+    div.full-height {
+        height: 80vh !important;
+    }
 }
+
+@media only screen and (max-width: 657px) and (min-width: 558px) {
+    div.full-height {
+        height: 73vh !important;
+    }
+}
+
+@media only screen and (max-width: 557px) and (min-width: 481px) {
+    div.full-height {
+        height: 65vh !important;
+    }   
 }
 
 /*Extra small devices (phones, up to 480px):*/
 @media only screen and (max-width: 480px) {
-footer p {
-	text-align: center !important;
-	float: none !important;
-}
-.client {
-	width: 50%;
-}
-#menu-button {
-	left: 13px;
-}
-header .lang-list {
-	right: 19px;
-}
-header .phone-number {
-	display: none;
-}
-header .lang-list li {
-	padding: 0 4px;
-}
-h1 {
-	font-size: 36px;
-	line-height: 1.3;
-	letter-spacing: 0;
-}
-h2 {
-	font-size: 32px;
-	line-height: 1.3;
-}
-p.small {
-	padding-bottom: 0;
-}
-h3.panel-title {
-	padding: 25px 0px !important;
-}
-.panel-heading::after, .panel-heading::before {
-	right: 0;
-}
-.panel-body {
-	padding: 5px 0px 20px !important
-}
-.more-margin {
-	margin-top: 10px;
-}
-.extra-padding-right {
-	padding-right: 15px;
-}
-.contact-page .form-part, .shorter-table {
-	margin-bottom: 40px;
-}
-blockquote {
-	font-size: 120%;
-}
-.comment + .comment {
-	padding-left: 30px;
-}
-.no-float-on-xs {
-	float: none;
-}
-.extra-padding-top-on-xs {
-	padding-top: 20px;
-}
-section {
-	padding: 70px 0;
-}
-#options li {
-	padding: 0 5px;
-}
-.no-greyed-on-xs {
-	padding-left: 0;
-	padding-right: 0;
-}
-.nav > li {
-	display: block;
-	padding-bottom: 15px;
-}
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-	border: 0 !important;
-}
+    div.full-height {
+        height: 55vh!important
+    }
+    footer p {
+        text-align: center !important;
+        float: none !important;
+    }
+    .client {
+        width: 50%;
+    }
+    #menu-button {
+        left: 13px;
+    }
+    header .lang-list {
+        right: 19px;
+    }
+    header .phone-number {
+        display: none;
+    }
+    header .lang-list li {
+        padding: 0 4px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 1.3;
+        letter-spacing: 0;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+    p.small {
+        padding-bottom: 0;
+    }
+    h3.panel-title {
+        padding: 25px 0px !important;
+    }
+    .panel-heading::after, .panel-heading::before {
+        right: 0;
+    }
+    .panel-body {
+        padding: 5px 0px 20px !important
+    }
+    .more-margin {
+        margin-top: 10px;
+    }
+    .extra-padding-right {
+        padding-right: 15px;
+    }
+    .contact-page .form-part, .shorter-table {
+        margin-bottom: 40px;
+    }
+    blockquote {
+        font-size: 120%;
+    }
+    .comment + .comment {
+        padding-left: 30px;
+    }
+    .no-float-on-xs {
+        float: none;
+    }
+    .extra-padding-top-on-xs {
+        padding-top: 20px;
+    }
+    section {
+        padding: 70px 0;
+    }
+    #options li {
+        padding: 0 5px;
+    }
+    .no-greyed-on-xs {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav > li {
+        display: block;
+        padding-bottom: 15px;
+    }
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+        border: 0 !important;
+    }
 }

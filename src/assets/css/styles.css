@@ -1842,6 +1842,12 @@ img {
 	max-width: 100%;
 	z-index: 9;
 }
+.home-video-container {
+	position: relative;
+	margin: 0 auto;
+    width: 960px; 
+    margin-top:60px;
+}
 .video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */

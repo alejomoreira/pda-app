@@ -2,12 +2,22 @@
 
     <section class="white">
         <div class="container clearfix">
-            <div class="video-wrapper ">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/-ljtpKfwt4c?controls=0&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="history">
-                <h4 class="header">{{ $t('restauracion.titulo') }}</h4>
-                <p v-html="$t('restauracion.texto')"></p>
+            <div class="restoration-container">
+                <div class="video-wrapper">
+                    <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/5vay9V-kaQA?mute=1&autoplay=1&loop=1&playlist=5vay9V-kaQA&controls=1&modestbranding=1&showinfo=0" 
+                    title="Paseo de las Américas" 
+                    frameborder="0" 
+                    allow="autoplay; encrypted-media" 
+                    allowfullscreen>
+                </iframe>
+                </div>
+                <div class="history">
+                    <h4 class="header">{{ $t('restauracion.titulo') }}</h4>
+                    <p v-html="$t('restauracion.texto')"></p>
+                </div>
             </div>
         </div>
     </section>

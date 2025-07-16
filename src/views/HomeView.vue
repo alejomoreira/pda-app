@@ -6,25 +6,34 @@
                 <figure class="background-image1 "></figure>
             </div>
             <div class="full-height-wrapper white-text">
-                <div class="custom-caption"><!--2017, Castle Neuschwanstein--></div>
+                <!--<div class="custom-caption">2017, Castle Neuschwanstein</div>-->
                 <div class="parent">
-                <div class="bottom">
-                    <div class="container">
-                        <div class="animatedblock delay2 animatedUp">
-                            <div class="col-lg-3 col-lg-offset-8 col-md-5 col-sm-offset-6 col-sm-6">
-                                <div class="banner-textblock">
-                                <h1>Paseo de las Américas<!--{{ $t('home.welcome', {company : "Apple"}) }}--></h1>
-                                <p class="large">A sensorial experience.</p>
-                                </div>
-                            </div>
+                    <div class="home-video-container clearfix">
+                        <div class="video-wrapper">
+                            <!--<div style="position:absolute;top:0;left:0;width:100%;height:100%;">-->
+                                <iframe
+                                    src="https://www.youtube.com/embed/qzkqtA209Rw?autoplay=1&loop=1&playlist=qzkqtA209Rw&mute=1&controls=1&modestbranding=1&showinfo=0"
+                                    title="Paseo de las Américas"
+                                    frameborder="0"
+                                    allow="autoplay; encrypted-media"
+                                    allowfullscreen
+                                ></iframe>
+                            <!--</div>-->
                         </div>
                     </div>
-                </div>
                 </div>
                 <div class="overlay"></div>
             </div>
         </div>
     </div>
+    <!--<div class="animatedblock delay2 animatedUp">
+                            <div class="col-lg-3 col-lg-offset-8 col-md-5 col-sm-offset-6 col-sm-6">
+                                <div class="banner-textblock">
+                                <h1>Paseo de las Américas{{ $t('home.welcome', {company : "Apple"}) }}</h1>
+                                <p class="large">A sensorial experience.</p>
+                                </div>
+                            </div>
+                        </div>-->
     <!--
     <section class="white">
         <div class="container clearfix">
