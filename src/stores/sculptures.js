@@ -99,8 +99,8 @@ module.exports = [
         "birth": "Argentina, 1926-2013",
         "website": "https://www.enioiommi.com",
         "slides": [
-            '/img/esculturas/la-lucha-entre-el-caos-y-el-orden-1.jpg',
-            '/img/esculturas/la-lucha-entre-el-caos-y-el-orden-2.jpg'
+            '/img/esculturas/la-lucha-entre-el-orden-y-el-caos-1.jpg',
+            '/img/esculturas/la-lucha-entre-el-orden-y-el-caos-2.jpg'
         ]
     },
     {

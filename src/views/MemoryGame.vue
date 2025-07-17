@@ -34,6 +34,8 @@ Sculptures.forEach((sculpture) => {
     sculptureCards.push({ name: sculpture.name, img: sculpture.path + '.jpg', isMatched: false, isFlipped: false});
 });
 
+sculptureCards.push({ name: 'Pda', img: 'logo_white.png', isMatched: false, isFlipped: false});
+
 export default {
     name: 'MemoryGameView',
     components: {

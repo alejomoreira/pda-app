@@ -1,11 +1,11 @@
 <template>
 
-<div class="full-width intro">
+    <div class="full-width intro">
       <div class="full-height not-completely-full">
         <div class="fixed">
           <figure class="background-image4 parallax parallax-banner"></figure>
         </div>
-        <div class="full-height-wrapper">
+        <!--<div class="full-height-wrapper">
           <div class="parent">
             <div class="bottom">
               <div class="container">
@@ -20,10 +20,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
-    <section class="white">
+    <section class="white about-pda">
         <div class="container clearfix no-header history">
             <h4 class="header">{{ $t('sobre-pda.titulo') }}</h4>
              <p v-html="$t('sobre-pda.texto')"></p>
@@ -31,18 +31,20 @@
     </section>
     <section class="white same-color-as-previous-section">
         <div class="container clearfix">
-            <div id="container">
-                <div v-for="(sculpture, index) in sculptures" class="element clearfix col-md-4 col-sm-6 home" :key="index">
-                    <a :href="'/'+ sculpture.path" :data-title="sculpture.name" class="transition-link">
-                        <img :src="'/img/esculturas/'+ sculpture.path + '-1.jpg'" alt="" />
-                        <div class="title-holder">
-                            <p>{{ sculpture.author }}</p>
-                            <h4 style="white-space:normal;text-align:left;">{{ sculpture.name }}</h4>
-                        </div>
-                        <div class="overlay"></div>
-                    </a> 
-                </div>
-                <!--
+            <!--<div id="container">-->
+            <div v-for="(sculpture, index) in sculptures" class="element clearfix col-md-4 col-sm-6 home" :key="index">
+                <a :href="'/'+ sculpture.path" :data-title="sculpture.name" class="transition-link">
+                    <img :src="'/img/esculturas/'+ sculpture.path + '-1.jpg'" alt="" />
+                    <div class="title-holder">
+                        <p>{{ sculpture.author }}</p>
+                        <h4 style="white-space:normal;text-align:left;">{{ sculpture.name }}</h4>
+                    </div>
+                    <div class="overlay"></div>
+                </a> 
+            </div>
+            <!--</div>-->
+        </div>
+                        <!--
                 <div class="element clearfix col-md-4 col-sm-6 home"> 
                     <a href="#" data-title="Image 01" class="transition-link">
                         <img src="images/work-single-15.jpg" alt="" />
@@ -53,8 +55,6 @@
                         <div class="overlay"></div>
                     </a> 
                 </div>-->
-            </div>
-        </div>
         <!--
         <div class="container clearfix">
             <div class="col-md-12 centered"> <a href="portfolio.html" title="" class="button">View All</a> </div>
@@ -268,5 +268,10 @@ export default {
 
 .history {
     text-align: justify;
+    padding: 0px 15px;
+} 
+
+.about-pda {
+    padding: 50px 0;
 }
 </style>

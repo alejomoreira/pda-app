@@ -7,7 +7,7 @@
                     <iframe 
                     width="560" 
                     height="315" 
-                    src="https://www.youtube.com/embed/5vay9V-kaQA?mute=1&autoplay=1&loop=1&playlist=5vay9V-kaQA&controls=1&modestbranding=1&showinfo=0" 
+                    src="https://www.youtube.com/embed/5vay9V-kaQA?mute=0&controls=1&modestbranding=1&showinfo=0" 
                     title="Paseo de las Américas" 
                     frameborder="0" 
                     allow="autoplay; encrypted-media" 
@@ -57,7 +57,7 @@ export default {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
-  padding-top: 25px;
+  /*padding-top: 25px;*/
   height: 0;
 }
 
@@ -72,6 +72,7 @@ export default {
     padding-top: 0px !important;
 }
 .history {
+    margin-top: 40px;
     text-align: justify;
 }
 </style>

@@ -2,6 +2,12 @@
 
 /*Large devices (large desktops, 1200px and up):*/
 @media only screen and (max-width: 1200px) {
+    .home-video-container {
+        width: 99.8%;
+    }
+    .home-logos {
+        padding-top: 80px !important;
+    }
 }
 
 /*Medium devices (desktops, 992px and up):*/
@@ -22,10 +28,6 @@
     }
     .hide-on-sm {
         display: none;
-    }
-
-    .home-video-container {
-        width: 95%;
     }
 
     div.full-height {

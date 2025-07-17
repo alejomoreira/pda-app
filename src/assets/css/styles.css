@@ -457,6 +457,9 @@ h1 {
 	margin-bottom: 0px;
 	letter-spacing: -0.5px;
 }
+h1.contact-address-text {
+    font-size: 32px;
+}
 h2 {
 	font-size: 36px;
 	line-height: 1.3;
@@ -809,6 +812,11 @@ section.white {
 section.same-color-as-previous-section {
 	padding-top: 0;
 }
+
+section.home {
+    padding: 100px 0px 10px 0px !important;
+}
+
 .container {
 	position: relative;
 	margin: 0 auto;
@@ -1217,7 +1225,8 @@ h3.panel-title {
 	top: 0;
 }
 .background-image4 {
-	background: url(../images/fullscreen28.jpg) no-repeat center;
+	/*background: url(../images/fullscreen28.jpg) no-repeat center;*/
+	background: url(../images/que_es.jpg) no-repeat center;
 	height: 100%;
 	display: block;
 	width: 100%;
@@ -1845,14 +1854,14 @@ img {
 .home-video-container {
 	position: relative;
 	margin: 0 auto;
-    width: 960px; 
-    margin-top:60px;
+    width: 100%;
+    /*width: 960px;*/
 }
 .video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	height: 0;
-	margin: 40px 0;
+	/*margin: 0px 0;*/
 }
 .video-wrapper iframe {
 	position: absolute;
